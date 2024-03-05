@@ -3,7 +3,6 @@ package request
 // Filter represents a filtering criterion.
 type Filter struct {
 	Column string      `json:"column"` // Column name to filter
-	Type   string      `json:"type"`   // Type of filter: enum, number, free_form
 	Value  interface{} `json:"value"`  // Value to filter by; interface{} is used for variable data type
 }
 

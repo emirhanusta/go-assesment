@@ -43,7 +43,7 @@ func (reportController *ReportController) GetAllWithPagination(c echo.Context) e
 	}
 
 	// Parsing page size
-	size, sizeErr := strconv.Atoi(c.QueryParam("size"))
+	size, sizeErr := strconv.Atoi(c.QueryParam("page_size"))
 	if sizeErr != nil {
 		return c.JSON(
 			http.StatusBadRequest,

@@ -14,7 +14,7 @@ This repository contains the source code for the backend assignment.
 1. Clone the repository:
 
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/emirhanusta/backend-assesment.git
     ```
 
 2. Navigate to the project directory:
@@ -25,10 +25,12 @@ This repository contains the source code for the backend assignment.
 
 3. **If you prefer to use Docker for PostgreSQL:**
 
-    -Navigate to the project directory:
+    - Navigate to the file directory:
+      
     ```bash
-    go run main.go
+    cd scripts
     ```
+
     - Then, run the following command in Git Bash to start the PostgreSQL database in Docker
   
    ```bash
